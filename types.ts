@@ -9,6 +9,8 @@ export interface Business {
   googleMapLink: string;
   rating: number;
   reviews: number;
+  price?: string;
+  detail?: string; // New field for detail image URL or text
 }
 
 export enum Category {
